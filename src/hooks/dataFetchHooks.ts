@@ -32,7 +32,7 @@ const useFetchMapPaths = (): { pathsData: Path[] | undefined; isLoadingPaths: bo
     (async () => {
       setIsLoadingPaths(true);
       try {
-        const response = await axios.get<Path[]>("data/map-paths.json");
+        const response = await axios.get<Path[]>("json/map-paths.json");
 
         if (response.status !== 200) {
           throw new Error("Failed to fetch reviews");
@@ -58,7 +58,7 @@ const useFetchOrders = (): { ordersData: Order | undefined; isLoadingOrders: boo
     (async () => {
       setIsLoadingOrders(true);
       try {
-        const response = await axios.get<Order>("data/orders.json");
+        const response = await axios.get<Order>("json/orders.json");
 
         if (response.status !== 200) {
           throw new Error("Failed to fetch reviews");
@@ -85,7 +85,7 @@ const useFetchReviews = (): { reviewsData: Reviews | undefined; isLoadingReviews
     const fetchData = async () => {
       setIsLoadingReviews(true);
       try {
-        const response = await axios.get<Reviews>("data/reviews.json");
+        const response = await axios.get<Reviews>("json/reviews.json");
 
         if (response.status !== 200) {
           throw new Error("Failed to fetch reviews");

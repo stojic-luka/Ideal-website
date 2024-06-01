@@ -25,7 +25,7 @@ export default function Presentation() {
         <motion.div whileInView={{ x: 0, opacity: 100, transition: { duration: 0.6 } }} initial={{ x: 25, opacity: 0 }} className="swiper-container">
           <div className="slider-slide">
             <video ref={videoRef} className="slider-video" controls autoPlay muted loop>
-              <source src="/src/resources/mp4/video_c.mp4" type="video/mp4" />
+              <source src="/assets/mp4/video_c.mp4" type="video/mp4" />
               Your browser does not support this video.
             </video>
           </div>

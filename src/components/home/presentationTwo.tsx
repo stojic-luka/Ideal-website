@@ -45,27 +45,27 @@ export default function PresentationTwo() {
             >
               <SwiperSlide className="slider-slide">
                 <div>
-                  <img src="/src/resources/webp/work1.webp" alt="work" className="slider-image" />
+                  <img src="/assets/webp/work1.webp" alt="work" className="slider-image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="slider-slide">
                 <div>
-                  <img src="/src/resources/webp/work2.webp" alt="work" className="slider-image" />
+                  <img src="/assets/webp/work2.webp" alt="work" className="slider-image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="slider-slide">
                 <div>
-                  <img src="/src/resources/webp/work3.webp" alt="work" className="slider-image" />
+                  <img src="/assets/webp/work3.webp" alt="work" className="slider-image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="slider-slide">
                 <div>
-                  <img src="/src/resources/webp/work4.webp" alt="work" className="slider-image" />
+                  <img src="/assets/webp/work4.webp" alt="work" className="slider-image" />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="slider-slide">
                 <div>
-                  <img src="/src/resources/webp/work5.webp" alt="work" className="slider-image" />
+                  <img src="/assets/webp/work5.webp" alt="work" className="slider-image" />
                 </div>
               </SwiperSlide>
             </Swiper>

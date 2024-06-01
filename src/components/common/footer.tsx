@@ -5,10 +5,10 @@ import "tippy.js/dist/tippy.css";
 
 import "../../styles/footer.css";
 
-import EmailIcon from "../../resources/svg/mailIconWhite.svg";
-import InstagramIcon from "../../resources/svg/instagramIconWhite.svg";
-import TiktokIcon from "../../resources/svg/tiktokIconWhite.svg";
-import LinkedinIcon from "../../resources/svg/linkedinIconWhite.svg";
+import EmailIcon from "/assets/svg/mailIconWhite.svg";
+import InstagramIcon from "/assets/svg/instagramIconWhite.svg";
+import TiktokIcon from "/assets/svg/tiktokIconWhite.svg";
+import LinkedinIcon from "/assets/svg/linkedinIconWhite.svg";
 
 interface SocialMediaLink {
   icon: JSX.Element;
@@ -45,8 +45,8 @@ export default function Footer() {
         <div className="footer-container">
           <div>
             <picture>
-              <source srcSet="/src/resources/svg/logo-small.svg" media="(max-width: 950px)" height="50px" />
-              <img src="/src/resources/svg/logo.svg" alt="IdealDev" height="50px" />
+              <source srcSet="/assets/svg/logo-small.svg" media="(max-width: 950px)" height="50px" />
+              <img src="/assets/svg/logo.svg" alt="IdealDev" height="50px" />
             </picture>
             <p className="footer-text">
               Copyright © 2020-{new Date().getFullYear()} {useMediaQuery({ query: "(max-device-width: 700px)" }) ? <br /> : ""} Ideal Development

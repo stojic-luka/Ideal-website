@@ -3,11 +3,11 @@ import { motion } from "framer-motion";
 
 import "../../styles/contact.css";
 
-import EmailIcon from "../../resources/svg/mailIcon.svg";
-import InstagramIcon from "../../resources/svg/instagramIcon.svg";
-import TiktokIcon from "../../resources/svg/tiktokIcon.svg";
-import LinkedinIcon from "../../resources/svg/linkedinIcon.svg";
-import UpworkIcon from "../../resources/svg/upworkIcon.svg";
+import EmailIcon from "../../../public/assets/svg/mailIcon.svg";
+import InstagramIcon from "../../../public/assets/svg/instagramIcon.svg";
+import TiktokIcon from "../../../public/assets/svg/tiktokIcon.svg";
+import LinkedinIcon from "../../../public/assets/svg/linkedinIcon.svg";
+import UpworkIcon from "../../../public/assets/svg/upworkIcon.svg";
 
 interface SocialMediaLink {
   icon: JSX.Element;

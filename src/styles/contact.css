@@ -15,7 +15,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  background-image: url("/src/resources/webp/work3-blur.webp");
+  background-image: url("/assets/webp/work3-blur.webp");
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;
