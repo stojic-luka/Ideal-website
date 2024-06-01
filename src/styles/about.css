@@ -1,5 +1,5 @@
 .about-header-display-wrapper {
-  background-image: url("/src/assets/webp/header-bg.webp");
+  background-image: url("/assets/webp/header-bg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;
@@ -78,7 +78,7 @@
 /*  */
 
 .about-presentation-wrapper {
-  background-image: url("/src/assets/webp/work1-blur.webp");
+  background-image: url("/assets/webp/work1-blur.webp");
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;
