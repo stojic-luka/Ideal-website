@@ -9,7 +9,7 @@ export default function HeaderDisplay() {
     <>
       <div className="header-display">
         <video autoPlay muted loop playsInline>
-          <source src="/src/assets/mp4/bg-video.mp4" type="video/mp4" />
+          <source src="/src/resources/mp4/bg-video.mp4" type="video/mp4" />
           Your browser does not support this video.
         </video>
         <motion.div

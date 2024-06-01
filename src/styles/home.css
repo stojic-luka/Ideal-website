@@ -573,7 +573,7 @@
 .contact-us-section-wrapper {
   /* position: absolute; */
   display: flex;
-  background-image: url("/src/assets/webp/header-bg.webp");
+  background-image: url("/src/resources/webp/header-bg.webp");
   background-position: center;
   background-size: cover;
   background-repeat: repeat-x;

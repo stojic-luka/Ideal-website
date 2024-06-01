@@ -15,7 +15,7 @@ function ReviewCard({ cardData }: ReviewCardProps) {
     <div className="review-card">
       <div className="review-header">
         <img
-          src={cardData.profile_photo !== "" ? cardData.profile_photo : "src/assets/webp/blank-profile-picture.webp"}
+          src={cardData.profile_photo !== "" ? cardData.profile_photo : "src/resources/webp/blank-profile-picture.webp"}
           alt="ReviewPfp"
           className="review-profile-photo"
         />

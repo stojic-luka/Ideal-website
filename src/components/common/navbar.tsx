@@ -85,8 +85,8 @@ export const NavBar = () => {
       <Container maxWidth="lg" className="space-out">
         <Link to={"/"}>
           <picture className="">
-            <source srcSet="/src/assets/svg/logo-small.svg" media="(max-width: 500px)" height="50px" />
-            <img src="/src/assets/svg/logo.svg" alt="IdealDev" height={isBigScreen ? "60px" : "50px"} />
+            <source srcSet="/src/resources/svg/logo-small.svg" media="(max-width: 500px)" height="50px" />
+            <img src="/src/resources/svg/logo.svg" alt="IdealDev" height={isBigScreen ? "60px" : "50px"} />
           </picture>
         </Link>
         <NavButtons />
@@ -104,8 +104,8 @@ export const HomeNavBar = () => {
         <div className="home-navbar">
           <Link to={"/"}>
             <picture>
-              <source srcSet="/src/assets/svg/logo-small-white.svg" media="(max-width: 500px)" height="50px" />
-              <img src="/src/assets/svg/logo-white.svg" alt="IdealDev" height={isBigScreen ? "60px" : "50px"} />
+              <source srcSet="/src/resources/svg/logo-small-white.svg" media="(max-width: 500px)" height="50px" />
+              <img src="/src/resources/svg/logo-white.svg" alt="IdealDev" height={isBigScreen ? "60px" : "50px"} />
             </picture>
           </Link>
           <NavButtons />

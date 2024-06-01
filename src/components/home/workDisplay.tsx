@@ -22,7 +22,7 @@ interface workDisplayCard {
 export default function WorkDisplay() {
   const info: workDisplayCard[] = [
     {
-      headerImage: "/src/assets/webp/work7.webp",
+      headerImage: "/src/resources/webp/work7.webp",
       headerText: "Scripting Gig",
       description:
         "Unlock new possibilities for your Roblox game with our expert scripting services, tailored to enhance gameplay and bring your ideas to life.",
@@ -30,14 +30,14 @@ export default function WorkDisplay() {
         "https://www.fiverr.com/ideal_dev/make-a-high-quality-roblox-script?context_referrer=user_page&ref_ctx_id=66bf31964bc803e7680e169e846e3f81&pckg_id=1&pos=3&imp_id=1cff07b9-30a7-451e-aad3-72e448f81ce7",
     },
     {
-      headerImage: "/src/assets/webp/work2.webp",
+      headerImage: "/src/resources/webp/work2.webp",
       headerText: "Full Game Creation Gig",
       description: "Turn your vision into reality with our skilled team, creating a captivating and immersive Roblox game that players will love.",
       gigLink:
         "https://www.fiverr.com/ideal_dev/build-a-complete-roblox-game-for-you?context_referrer=user_page&ref_ctx_id=66bf31964bc803e7680e169e846e3f81&pckg_id=1&pos=1&imp_id=99c82e33-4356-439f-b56f-94fef11b2acf",
     },
     {
-      headerImage: "/src/assets/webp/work6.webp",
+      headerImage: "/src/resources/webp/work6.webp",
       headerText: "Map and Asset Creation Gig",
       description: "Elevate your Roblox experience with our skilled map and model design services, adding depth and creativity to your world.",
       gigLink:
