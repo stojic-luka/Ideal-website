@@ -1,0 +1,119 @@
+.about-header-display-wrapper {
+  background-image: url("/src/assets/webp/header-bg.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  width: 100%;
+  margin-bottom: 60px;
+}
+.about-header-display-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  min-width: 460px;
+}
+.about-header-text {
+  margin-left: auto;
+  width: 400px;
+  color: white;
+  font-size: 20px;
+  padding: 30px;
+}
+
+/*  */
+
+.counters-wrapper-header {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 50px;
+}
+
+.counters-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.counters-wrapper > div {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  text-align: center;
+}
+.counters-wrapper > div > div {
+  width: 225px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #c0e3fd;
+  border-radius: 20px;
+  border: 1px solid #7d8e9b;
+  transition: box-shadow 200ms ease-in-out;
+  box-shadow: 0 4px 6px 0 rgba(11, 11, 11, 0.3);
+}
+.counters-wrapper span {
+  color: #005baf;
+  font-size: 50px;
+}
+@media (max-width: 1100px) {
+  .counters-wrapper > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 550px;
+  }
+  .counters-wrapper > div > div {
+    width: 225px;
+    margin: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .counters-wrapper > div {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+  .counters-wrapper > div > div {
+    width: 225px;
+    margin-top: 25px;
+  }
+}
+
+/*  */
+
+.about-presentation-wrapper {
+  background-image: url("/src/assets/webp/work1-blur.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-x;
+  width: 100%;
+  margin: 60px 0;
+}
+.about-presentation-container {
+  margin-left: auto;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 50%;
+  min-width: 460px;
+}
+.about-presentation-text {
+  margin-right: auto;
+  width: 400px;
+  color: black;
+  font-size: 20px;
+  padding: 30px;
+}
+
+@media (max-width: 550px) {
+  .about-header-text,
+  .about-presentation-text {
+    margin: 0 auto;
+    width: auto;
+  }
+  .about-header-display-container,
+  .about-presentation-container {
+    width: 100%;
+    min-width: 0;
+  }
+}
+
+.upcount-title {
+  display: block;
+  font-size: 25px !important;
+  margin-bottom: 10px;
+}

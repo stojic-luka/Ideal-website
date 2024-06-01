@@ -1,0 +1,44 @@
+{
+  "name": "ideal",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/lab": "^5.0.0-alpha.126",
+    "@mui/material": "^5.11.16",
+    "@svgr/webpack": "^8.1.0",
+    "@tippyjs/react": "^4.2.6",
+    "axios": "^1.3.5",
+    "dotenv": "^16.0.3",
+    "framer-motion": "^10.16.4",
+    "i": "^0.3.7",
+    "npm": "^9.6.4",
+    "plyr": "^3.7.8",
+    "react": "^18.2.0",
+    "react-countup": "^6.4.2",
+    "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.2",
+    "react-responsive": "^9.0.2",
+    "react-router-dom": "^6.15.0",
+    "react-snaplist-carousel": "^4.5.0",
+    "swiper": "^9.4.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@types/react-slick": "^0.23.10",
+    "@types/tiny-slider-react": "^0.3.4",
+    "@vitejs/plugin-react": "^3.1.0",
+    "file-loader": "^6.2.0",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0"
+  }
+}

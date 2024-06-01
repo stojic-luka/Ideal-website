@@ -1,0 +1,26 @@
+{
+  "Central African region": 0,
+  "East African region": 0,
+  "North African region": 0,
+  "South African region": 1,
+  "West African region": 0,
+
+  "North American region": 28,
+  "South American region": 4,
+
+  "Central Asian region": 0,
+  "East Asian region": 1,
+  "Russia and the Caucasus region": 2,
+  "Southeast Asian region": 0,
+  "South Asian region": 0,
+  "West Asian region": 1,
+
+  "Australian region": 2,
+
+  "Central European region": 5,
+  "Eastern European region": 0,
+  "Northern European region": 8,
+  "Southern European Region": 4,
+  "South Eastern European region": 0,
+  "Western European region": 5
+}
